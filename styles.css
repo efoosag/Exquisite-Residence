@@ -1,0 +1,190 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+:root {
+  --color1: #272a31;
+  --color2: #ec5242;
+  --color3: #d3d3d3;
+}
+
+body {
+  background-color: var(--color3);
+}
+h1,
+p,
+ul,
+li {
+  font-family: 'COCOGOOSE', sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+}
+
+.logo,
+.nav_menu,
+.close_button {
+  display: none;
+}
+
+.hamburger > img {
+  width: 40px;
+  padding: 0 12px;
+}
+
+.main {
+  padding: 0 12px;
+  margin-top: 48px;
+}
+
+.main_sub_title,
+.main_title {
+  color: var(--color2);
+  margin: 0;
+}
+
+.main_title {
+  margin-bottom: 12px;
+}
+
+.main_intro {
+  padding: 12px;
+  border: 3px solid #fff;
+  margin-bottom: 12px;
+}
+
+.date {
+  color: var(--color1);
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.main_venue {
+  font-size: 12px;
+  margin-bottom: 48px;
+}
+
+.activity {
+  background-color: var(--color1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.activity_title {
+  color: #fff;
+  font-size: 24px;
+  margin: 36px 0 12px 0;
+}
+
+.bar {
+  width: 40px;
+  height: 1px;
+  background-color: var(--color2);
+  margin-bottom: 36px;
+}
+
+.activity_menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.activity_menu_item {
+  display: flex;
+  align-items: center;
+  padding: 24px 0;
+  background-color: rgb(73, 70, 70);
+  margin: 6px 12px;
+}
+
+.activity_menu_item > img {
+  width: 10%;
+  padding: 0 12px;
+}
+
+.brief {
+  padding-right: 12px;
+  color: var(--color3);
+}
+
+span {
+  padding-right: 12px;
+  color: var(--color2);
+}
+
+.connect {
+  padding: 24px;
+  margin: 36px;
+  background-color: var(--color2);
+  color: var(--color3);
+  text-align: center;
+}
+
+.guest_speaker {
+  background-color: var(--color3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+}
+
+.guest_title {
+  margin-bottom: 8px;
+}
+
+.speaker_lists {
+  display: flex;
+  margin: 0 12px;
+}
+
+.speaker_image {
+  width: 100px;
+  height: 100px;
+}
+
+.speaker_image > img {
+  width: 100%;
+  margin-right: 12px;
+}
+
+.speaker_details {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.speaker_name,
+.speaker_discipline,
+.speaker_biography {
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+}
+
+.more {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 24px 24px;
+  padding: 12px 0;
+  border: 2px solid var(--color3);
+}
+
+.more_speaker {
+  margin-right: 12px;
+  color: var(--color3);
+}
+
+.more > img {
+  height: 60%;
+  color: var(--color2);
+  padding-top: 6px;
+}
