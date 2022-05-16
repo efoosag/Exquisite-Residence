@@ -1,0 +1,20 @@
+{
+  "name": "exquisite-capstone",
+  "version": "1.0.0",
+  "description": "Project for Exquisite Residence",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/efoosag/Exquisite-Capstone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/efoosag/Exquisite-Capstone/issues"
+  },
+  "homepage": "https://github.com/efoosag/Exquisite-Capstone#readme"
+}
