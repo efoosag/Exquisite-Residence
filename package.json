@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/efoosag/Exquisite-Capstone/issues"
   },
-  "homepage": "https://github.com/efoosag/Exquisite-Capstone#readme"
+  "homepage": "https://github.com/efoosag/Exquisite-Capstone#readme",
+  "devDependencies": {
+    "hint": "^6.2.0"
+  }
 }
