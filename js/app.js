@@ -103,7 +103,8 @@ speakerLists.forEach((n, index) => {
   speakerBiography = n.biography;
 
   const content = `<div class="speaker_image">
-      <img src="${speakerImage}" alt="First Speaker" />
+      <img class="check" src="./images/check_box.png" alt="First Speaker"/>
+      <img class="speak_image" src="${speakerImage}" alt="First Speaker" />
     </div>
     <div class="speaker_details">
       <h4 class="speaker_name">${speakerName}</h4>
