@@ -29,6 +29,7 @@ h1 {
   background-size: cover;
   background-position: center;
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'cocogoose', sans-serif;
   color: #ec5242;
