@@ -36,14 +36,54 @@ a {
 }
 
 .logo,
-.nav_menu,
-.close_button {
+.nav_menu {
   display: none;
+}
+
+.nav_menu.active {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/images/program-bg.jpg');
+  opacity: 0.9;
+}
+
+.nav_menu_item {
+  font-size: 24px;
+  margin: 0 24px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--color3);
+}
+
+.nav_menu_item > a {
+  color: #d3d3d3;
+}
+
+.close_button {
+  cursor: pointer;
+  display: flex;
+  align-self: flex-end;
+  margin-right: 24px;
+  font-size: 64px;
+  color: var(--color3);
+  border-bottom: 0;
+}
+
+.hamburger {
+  cursor: pointer;
 }
 
 .hamburger > img {
   width: 40px;
   padding: 0 12px;
+}
+
+.hamburger.active {
+  display: none;
 }
 
 .main,
@@ -160,7 +200,7 @@ span {
 
 .speaker_lists {
   display: flex;
-  margin: 0 12px;
+  margin: 24px 12px;
 }
 
 .des_speaker_lists {
@@ -415,6 +455,12 @@ span {
   .nav_menu_item {
     padding: 0 8px;
     font-size: 12px;
+    border: 0;
+    margin: 0;
+  }
+
+  .close_button {
+    display: none;
   }
 
   .other_item {
@@ -507,7 +553,7 @@ span {
 
   .speaker_lists {
     width: 40%;
-    margin-bottom: 12px;
+    margin: 0 0 12px 0;
   }
 
   .des_speaker_lists {
