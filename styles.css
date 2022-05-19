@@ -479,7 +479,7 @@ a {
     margin: 0;
     padding: 0 8%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     background-image: unset;
     background-color: #fff;
     align-items: center;
@@ -487,8 +487,8 @@ a {
 
   .logo {
     display: flex;
-    width: 30%;
-    height: 50px;
+    width: 100%;
+    height: 70px;
   }
 
   .nav_menu {
