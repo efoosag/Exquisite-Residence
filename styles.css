@@ -65,7 +65,7 @@ a {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('/images/program-bg.jpg');
+  background-image: url('./images/program-bg.jpg');
   opacity: 0.9;
 }
 
@@ -111,7 +111,7 @@ a {
 .main,
 .about {
   padding: 48px 12px;
-  background-image: url('/images/mobile-bg.png');
+  background-image: url('./images/mobile-bg.png');
   background-size: cover;
 }
 
@@ -150,7 +150,7 @@ a {
 }
 
 .activity {
-  background-image: url('/images/program-bg.jpg');
+  background-image: url('./images/program-bg.jpg');
   display: flex;
   flex-direction: column;
   align-items: center;
