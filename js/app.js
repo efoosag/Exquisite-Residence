@@ -96,7 +96,7 @@ let speakerName = '';
 let speakerDiscipline = '';
 let speakerBiography = '';
 
-speakerLists.forEach((n, index) => {
+speakerLists.forEach((n) => {
   speakerImage = n.sImage;
   speakerName = n.name;
   speakerDiscipline = n.discipline;

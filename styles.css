@@ -478,24 +478,6 @@ a {
   color: var(--color1);
 }
 
-.fa-google {
-  font-size: 24px;
-}
-
-.fa-naver {
-  font-size: 36px;
-}
-.fa-free-apple {
-  font-size: 24px;
-}
-.fa-airbnb {
-  font-size: 24px;
-}
-.fa-mozilla {
-  font-size: 36px;
-  font-family: 'COCOGOOSE', sans-serif;
-  color: var(--color3);
-}
 @media screen and (min-width: 768px) {
   .icon {
     display: flex;
@@ -526,7 +508,6 @@ a {
     align-items: center;
     background-image: unset;
     background-color: #fff;
-    align-items: center;
   }
 
   .logo {
