@@ -34,7 +34,7 @@ Click: https://efoosag.github.io/Exquisite-Capstone/
 
 ## For video Summary of the Project,
 
-Click: https://www.loom.com/share/e74ad1b109184a839e4c3d53f378f609
+Click: https://www.loom.com/share/71c918db9a474c53b4c1fd533bd08e6b
 
 To get a local copy up and running follow these simple example steps.
 
