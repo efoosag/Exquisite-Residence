@@ -28,6 +28,7 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'cocogoose', sans-serif;
