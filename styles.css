@@ -65,8 +65,11 @@ a {
   left: 0;
   width: 100%;
   height: 100%;
+  backdrop-filter: blur(8px);
+  z-index: 10;
+  overflow: hidden;
   background-image: url('./images/program-bg.jpg');
-  opacity: 0.9;
+  opacity: 1;
 }
 
 .nav_menu_item {
@@ -310,7 +313,7 @@ a {
   text-align: center;
   font-family: 'Lato', sans-serif;
   color: var(--color1);
-  font-weight: lighter;
+  font-weight: bolder;
 }
 
 .contact {
@@ -393,13 +396,25 @@ a {
   margin-bottom: 12px;
 }
 
+.past_overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: red;
+  opacity: 0.4;
+}
+
 .year {
   font-size: 24px;
+  font-family: 'COCOGOOSE', sans-serif;
 }
 
 .year_exh {
-  font-size: 8px;
-  padding: 0 64px;
+  font-size: 12px;
+  padding: 0 16px;
+  font-family: 'COCOGOOSE', sans-serif;
 }
 
 .partner {
@@ -428,7 +443,9 @@ a {
 .footer {
   background-color: #fff;
   display: flex;
+  flex-direction: row;
   font-size: 12px;
+  justify-content: center;
 }
 
 .footer_item {
@@ -448,8 +465,9 @@ a {
 }
 
 .footer_info {
-  font-size: 8px;
-  color: var(--color3);
+  font-size: 10px;
+  font-family: 'Lato', sans-serif;
+  color: var(--color1);
 }
 
 @media screen and (min-width: 768px) {
@@ -457,7 +475,7 @@ a {
     display: flex;
     justify-content: flex-end;
     background-color: var(--color1);
-    padding-right: 72px;
+    padding-right: 244px;
   }
 
   .icon > li {
@@ -479,6 +497,7 @@ a {
     padding: 0 8%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     background-image: unset;
     background-color: #fff;
     align-items: center;
@@ -496,9 +515,8 @@ a {
   }
 
   .nav_menu_item {
-    font-size: 8px;
     border: 0;
-    margin-right: 4px;
+    padding: 0 6px;
   }
 
   .close_button {
@@ -510,7 +528,7 @@ a {
   .er_link {
     color: var(--color1);
     font-family: 'Lato', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bolder;
   }
 
@@ -520,7 +538,7 @@ a {
 
   .er_link {
     display: flex;
-    padding: 4px;
+    padding: 8px;
     margin-left: 4px;
     border: 2px solid var(--color2);
     color: var(--color2);
@@ -533,6 +551,11 @@ a {
 
   .hamburger {
     display: none;
+  }
+
+  .main_title,
+  .about_title {
+    font-size: 48px;
   }
 
   .main_sub_title,
@@ -548,15 +571,18 @@ a {
     width: 30%;
     margin: 0 112px 48px 112px;
     font-size: 12px;
+    line-height: 20px;
     color: var(--color1);
   }
 
   .date {
     margin: 0 112px;
+    font-size: 24px;
   }
 
   .main_venue {
     margin: 0 auto 48px 112px;
+    font-size: 14px;
   }
 
   .activity_menu {
@@ -658,7 +684,6 @@ a {
 
   .footer {
     font-size: 16px;
-    justify-content: flex-start;
     padding: 24px 0;
   }
 
@@ -673,11 +698,6 @@ a {
     padding: 0;
     margin: 0;
     color: var(--color1);
-  }
-
-  .footer_info {
-    font-size: 10px;
-    color: var(--color3);
   }
 
   .about {
@@ -698,17 +718,27 @@ a {
 
   .about_intro {
     width: 40%;
-    font-size: 10px;
+    font-size: 12px;
+    line-height: 20px;
     margin: 0 112px 24px 112px;
   }
 
   .contact {
     padding-bottom: 0;
+    font-size: 14px;
   }
 
   .about_logo {
     width: 30%;
     margin-bottom: 36px;
+  }
+
+  .logo_origin {
+    font-size: 12px;
+  }
+
+  .last_two {
+    font-size: 14px;
   }
 
   .past_title {

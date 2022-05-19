@@ -114,18 +114,6 @@ speakerLists.forEach((n, index) => {
 
   const li = document.createElement('li');
   li.classList.add('speaker_lists');
-  if (index > 1) {
-    li.classList.add('des_speaker_lists');
-  }
   li.innerHTML = content;
   ul.append(li);
 });
-const moreDiv = document.createElement('div');
-moreDiv.classList.add('more');
-const more = `
-<span class="more_speaker">More</span
-><img src="./images/down_arrow.png" alt="down arrow" />
-`;
-
-moreDiv.innerHTML = more;
-ul.append(moreDiv);
