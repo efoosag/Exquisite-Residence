@@ -190,6 +190,10 @@ a {
   margin: 6px 12px;
 }
 
+.activity_menu_item:hover {
+  border: 2px solid #fff;
+}
+
 .activity_menu_item > img {
   width: 15%;
   padding: 0 12px;
@@ -205,7 +209,8 @@ a {
 
 .program_title {
   padding-right: 12px;
-  color: var(--color2);
+  font-family: 'COCOGOOSE', sans-serif;
+  color: #ff2323;
   font-size: 14px;
   font-weight: bolder;
 }
@@ -266,22 +271,25 @@ a {
   padding: 4px 12px;
   margin-top: 12px;
   margin-bottom: 0;
-  font-size: 12px;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
   color: var(--color1);
 }
 
 .speaker_discipline {
   padding: 0 12px;
   margin: 0;
-  font-size: 8px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bolder;
+  font-size: 12px;
   color: var(--color2);
 }
 
 .speaker_biography {
   padding: 4px 12px;
   margin: 0;
-  font-size: 8px;
-  font-family: 'Lato', sans-serif;
+  font-size: 10px;
+  font-family: 'COCOGOOSE', sans-serif;
   font-weight: lighter;
   color: var(--color1);
 }
@@ -470,6 +478,24 @@ a {
   color: var(--color1);
 }
 
+.fa-google {
+  font-size: 24px;
+}
+
+.fa-naver {
+  font-size: 36px;
+}
+.fa-free-apple {
+  font-size: 24px;
+}
+.fa-airbnb {
+  font-size: 24px;
+}
+.fa-mozilla {
+  font-size: 36px;
+  font-family: 'COCOGOOSE', sans-serif;
+  color: var(--color3);
+}
 @media screen and (min-width: 768px) {
   .icon {
     display: flex;
@@ -599,11 +625,6 @@ a {
     align-items: center;
   }
 
-  .workshop,
-  .networking {
-    height: 80px;
-  }
-
   .activity_menu_item > img {
     width: 50%;
     margin-bottom: 12px;
@@ -622,8 +643,6 @@ a {
   .program_title {
     padding: 0;
     font-family: 'COCOGOOSE', sans-serif;
-    font-weight: lighter;
-    color: var(--color2);
     font-size: 14px;
     margin-bottom: 12px;
   }
