@@ -42,7 +42,7 @@ a {
 
 .nav_main {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   padding: 12px 0;
   background-image: url('/images/mobile-bg.png');
   box-shadow: 10px 14px -3px rgba(172, 167, 167, 0.979);
