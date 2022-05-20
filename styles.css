@@ -452,7 +452,7 @@ a {
 }
 
 .partner_menu_item {
-font-size: 32px;
+  font-size: 32px;
   width: 32%;
   padding: 12px 0;
 }
@@ -657,10 +657,10 @@ font-size: 32px;
     width: 150px;
     margin: 0 12px 12px 0;
   }
-
+  
   .des_speaker_lists {
     display: flex;
-  }
+  } 
 
  .more {
     display: none;
