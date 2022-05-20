@@ -241,7 +241,7 @@ a {
 
 .speaker_lists {
   display: flex;
-  margin: 24px 12px;
+  margin: 62px 12px;
 }
 
 .des_speaker_lists {
@@ -452,6 +452,7 @@ a {
 }
 
 .partner_menu_item {
+font-size: 32px;
   width: 32%;
   padding: 12px 0;
 }
@@ -649,7 +650,7 @@ a {
 
   .speaker_lists {
     width: 40%;
-    margin: 0 0 12px 0;
+    margin: 0 0 36px 0;
   }
 
   .speaker_image {
@@ -661,13 +662,7 @@ a {
     display: flex;
   }
 
-  .speaker_discipline {
-    margin-bottom: 12px;
-    font-size: 8px;
-    color: var(--color2);
-  }
-
-  .more {
+ .more {
     display: none;
   }
 
