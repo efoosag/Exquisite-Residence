@@ -96,7 +96,7 @@ let speakerName = '';
 let speakerDiscipline = '';
 let speakerBiography = '';
 
-speakerLists.forEach((n) => {
+speakerLists.forEach((n, index) => {
   speakerImage = n.sImage;
   speakerName = n.name;
   speakerDiscipline = n.discipline;
@@ -114,6 +114,31 @@ speakerLists.forEach((n) => {
 
   const li = document.createElement('li');
   li.classList.add('speaker_lists');
+  if (index > 1) {
+    li.classList.add('des_speaker_lists');
+  }
   li.innerHTML = content;
   ul.append(li);
+});
+const li = document.createElement('li');
+const more = `<div class="more">
+<span class="more_speaker">MORE</span>
+<img src="./images/down_arrow.png" alt="#" />
+</div>`;
+li.innerHTML = more;
+ul.append(li);
+
+const addMore = document.querySelector('.more');
+addMore.addEventListener('click', () => {
+  document.querySelectorAll('.speaker_lists').forEach((m) => {
+    if (m.classList.contains('des_speaker_lists')) {
+      m.classList.remove('des_speaker_lists');
+      document.querySelector('.more').innerHTML = `<span class="more_speaker">LESS</span>
+      <img src="./images/up_arrow.png" alt="#" />`;
+    } else {
+      m.classList.add('des_speaker_lists');
+      document.querySelector('.more').innerHTML = `<span class="more_speaker">MORE</span>
+      <img src="./images/down_arrow.png" alt="#" />`;
+    }
+  });
 });

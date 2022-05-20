@@ -161,7 +161,8 @@ a {
 }
 
 .activity_title {
-  color: #fff;
+  color: var(--color3);
+  font-family: 'Lato', sans-serif;
   font-size: 24px;
   margin: 36px 0 12px 0;
 }
@@ -202,6 +203,7 @@ a {
 
 .brief {
   padding-right: 12px;
+  font-family: 'COCOGOOSE', sans-serif;
   color: var(--color3);
   width: 60%;
   font-size: 10px;
@@ -218,6 +220,9 @@ a {
 .connect {
   padding: 24px;
   margin: 36px;
+  font-size: 12px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
   background-color: var(--color2);
   color: var(--color3);
   text-align: center;
@@ -244,9 +249,9 @@ a {
 }
 
 .speaker_image {
-  width: 100px;
-  height: 100px;
-  margin-right: 12px;
+  width: 200px;
+  height: 160px;
+  margin-right: 24px;
 }
 
 .check {
@@ -268,29 +273,29 @@ a {
 }
 
 .speaker_name {
-  padding: 4px 12px;
-  margin-top: 12px;
+  padding: 0 12px 8px 12px;
+  margin-top: 0;
   margin-bottom: 0;
   font-family: 'Lato', sans-serif;
-  font-size: 14px;
+  font-size: 24px;
   color: var(--color1);
 }
 
 .speaker_discipline {
-  padding: 0 12px;
-  margin: 0;
+  padding: 0 12px 30px 12px;
+  margin-bottom: 0;
   font-family: 'Lato', sans-serif;
   font-weight: bolder;
-  font-size: 12px;
+  font-size: 18px;
   color: var(--color2);
 }
 
 .speaker_biography {
   padding: 4px 12px;
   margin: 0;
-  font-size: 10px;
-  font-family: 'COCOGOOSE', sans-serif;
-  font-weight: lighter;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bolder;
   color: var(--color1);
 }
 
@@ -300,7 +305,10 @@ a {
   width: 90%;
   margin: 24px 24px;
   padding: 12px 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: bolder;
   border: 2px solid var(--color3);
+  color: var(--color1);
 }
 
 .more_speaker {
@@ -475,7 +483,7 @@ a {
 .footer_info {
   font-size: 10px;
   font-family: 'Lato', sans-serif;
-  color: var(--color1);
+  color: var(--color3);
 }
 
 @media screen and (min-width: 768px) {
@@ -607,17 +615,15 @@ a {
   }
 
   .activity_menu_item > img {
-    width: 50%;
+    width: 20%;
     margin-bottom: 12px;
   }
 
   .brief {
     padding: 0;
     color: #fff;
-    font-family: 'Lato', sans-serif;
     font-weight: lighter;
     width: 60%;
-    font-size: 12px;
     text-align: center;
   }
 
@@ -630,7 +636,6 @@ a {
 
   .connect {
     background-color: var(--color1);
-    color: #fff;
     text-decoration: underline;
   }
 
