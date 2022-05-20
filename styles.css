@@ -657,12 +657,12 @@ a {
     width: 150px;
     margin: 0 12px 12px 0;
   }
-  
+
   .des_speaker_lists {
     display: flex;
-  } 
+  }
 
- .more {
+  .more {
     display: none;
   }
 
